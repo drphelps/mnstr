@@ -1,6 +1,6 @@
 {
-  "name": "@ecliptic/mnstr-client",
-  "version": "0.2.0",
+  "name": "@dphunkt/mnstr-client",
+  "version": "0.2.1",
   "description": "Client-side packages to support the Mnstr framework",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,7 @@
     "build.re.watch": "yarn build.re -w",
     "build.re.clean": "bsb -clean-world"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ecliptic/mnstr.git"
-  },
+  "repository": "git+https://github.com/drphelps/mnstr.git",
   "keywords": [
     "bucklescript",
     "reason",
@@ -28,7 +25,6 @@
   },
   "homepage": "https://github.com/ecliptic/mnstr#readme",
   "dependencies": {
-    "@ecliptic/mnstr-core": "*",
     "apollo-cache-inmemory": "^1.1.9",
     "apollo-client": "^2.2.5",
     "apollo-link": "^1.2.1",
@@ -41,6 +37,7 @@
     "graphql": "^0.13.1",
     "graphql-tag": "^2.8.0",
     "graphql_ppx": "^0.2.1",
+    "@dphunkt/mnstr-core": "*",
     "reason-apollo": "^0.6.17",
     "reason-react": "^0.3.2"
   },

@@ -1,5 +1,5 @@
 {
-  "name": "@ecliptic/mnstr-server",
+  "name": "@dphunkt/mnstr-server",
   "version": "0.1.0",
   "description": "Server-side packages supporting the Mnstr framework",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ecliptic/mnstr.git"
+    "url": "git+https://github.com/drphelps/mnstr.git"
   },
   "author": "Brandon Konkle <brandon@ecliptic.io> (http://ecliptic.io)",
   "license": "BSD-2-Clause",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ecliptic/mnstr#readme",
   "dependencies": {
-    "@ecliptic/mnstr-core": "*",
+    "@dphunkt/mnstr-core": "*",
     "apollo-server-express": "^1.3.2",
     "body-parser": "^1.18.2",
     "bs-abstract": "^0.12.0",

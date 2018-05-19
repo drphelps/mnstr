@@ -1,5 +1,5 @@
 {
-  "name": "@ecliptic/mnstr-client",
+  "name": "@dphunkt/mnstr-client",
   "package-specs": {
     "module": "commonjs",
     "in-source": true
@@ -12,7 +12,7 @@
     }
   ],
   "bs-dependencies": [
-    "@ecliptic/mnstr-core",
+    "@dphunkt/mnstr-core",
     "bs-graphql",
     "bs-abstract",
     "reason-react",
@@ -21,6 +21,8 @@
   "reason": {
     "react-jsx": 2
   },
-  "bsc-flags": ["-bs-super-errors"],
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
   "refmt": 3
 }

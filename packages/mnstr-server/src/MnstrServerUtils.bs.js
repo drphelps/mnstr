@@ -19,7 +19,7 @@ function heartbeat(_, res) {
 }
 
 function handleErrors(isDev) {
-  return Express.Middleware[/* fromError */4]((function (_, err, _$1, res) {
+  return Express.Middleware[/* fromError */6]((function (_, err, _$1, res) {
                 var error = errorToJson(err);
                 var json = { };
                 json["success"] = false;

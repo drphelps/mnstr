@@ -1,5 +1,5 @@
 {
-  "name": "@ecliptic/mnstr-core",
+  "name": "@dphunkt/mnstr-core",
   "version": "0.1.0",
   "description": "Core packages supporting the Mnstr framework",
   "main": "index.js",
@@ -9,10 +9,7 @@
     "build.re.watch": "yarn build.re -w",
     "build.re.clean": "bsb -clean-world"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ecliptic/mnstr.git"
-  },
+  "repository": "git+https://github.com/drphelps/mnstr.git",
   "author": "Brandon Konkle <brandon@ecliptic.io> (http://ecliptic.io)",
   "license": "BSD-2-Clause",
   "bugs": {

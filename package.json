@@ -1,12 +1,11 @@
 {
-  "name": "@ecliptic/mnstr",
+  "name": "@dphunkt/mnstr",
   "description": "A monorepo for the Mnstr framework",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ecliptic/mnstr.git"
-  },
-  "workspaces": ["packages/*"],
+  "repository": "git+https://github.com/drphelps/mnstr.git",
+  "workspaces": [
+    "packages/*"
+  ],
   "author": "Brandon Konkle <brandon@ecliptic.io> (http://ecliptic.io)",
   "license": "BSD-2-Clause",
   "bugs": {
@@ -25,5 +24,7 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js"
 }
