@@ -3,7 +3,7 @@
 
 var Curry = require("bs-platform/lib/js/curry.js");
 var Js_option = require("bs-platform/lib/js/js_option.js");
-var MnstrUtils = require("@ecliptic/mnstr-core/src/MnstrUtils.bs.js");
+var MnstrUtils = require("@dphunkt/mnstr-core/src/MnstrUtils.bs.js");
 var ApolloLinks = require("reason-apollo/src/ApolloLinks.bs.js");
 var ApolloLink = require("apollo-link");
 var GraphqlTag = require("graphql-tag");
